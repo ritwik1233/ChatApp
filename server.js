@@ -12,9 +12,6 @@ require('./models/models')
 var users=[];
 var User=mongoose.model('User');
 var email;
-/* ==========================================================
-serve the static index.html from the public folder
-============================================================ */
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 app.use(express.static('public'));
