@@ -23,6 +23,7 @@ For documentation regarding Socket.IO follow the below given links:-
 - For front-end  I have used AngularJS.I have implemented the SinglePageApp technologies.
   For tutorials on SinglePageApp go to [SinglePageApp Tutorial](https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating).
 - Some things are yet to be implemented like authentication,session,chatrooms and etc.These will be implemented after some time.
+  **Session is not implemented properly so please remove it before running the project**
 - I have used [MaterialiseCSS](http://materializecss.com/) for styling.
 - For server I have used NodeJS and ExpressJS Framework.The routing to different pages are handled by angular's module [NGRoute](https://docs.angularjs.org/api/ngRoute)
 - For backend I have used [mongoose schema](http://mongoosejs.com/docs/guide.html).I have only implemented database authentication in this project.
