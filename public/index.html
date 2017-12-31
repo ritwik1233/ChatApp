@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+ <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="materialize/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script type="text/javascript">
+  </script>
+  </head>
+  <body bgcolor="#E8E8E8">
+<nav class="teal lighten">
+    <div class="nav-wrapper">
+      <a  class="brand-logo">ChitChat</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="">ContactUs</a></li>
+        <li><a href="">Report</a></li>
+        
+        </ul>
+    </div>
+  </nav>
+    <div ng-view >
+      
+    </div>
+
+
+    <script src="todo.js"></script>
+  </body>
+</html>
